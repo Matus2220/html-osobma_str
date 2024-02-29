@@ -1,0 +1,139 @@
+/*Css súbor*/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(Obrazok\ kovac.jpg);
+    background-size: cover;
+    color: white;
+}
+h2 {
+    font-size: 30px;
+    color: yellow;
+}
+div > a {
+    text-decoration: none;
+    color: white;
+}
+div > a:hover {
+    color: yellow;
+}
+/*Container box-modelu*/
+#container {
+    margin: auto;
+    width: 1300px;
+    padding: 20px;
+}
+/*Css-Header*/
+#header {
+    border: 2px solid grey;
+    height: 100px;
+    width: 1300px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+h1 {
+    float: left;
+    margin-top: 25px;
+    margin-left: 460px;
+}
+#Ga {
+    margin-left: 562px;
+}
+#Ko {
+    margin-left: 405px;
+}
+#On {
+    margin-left: 590px;
+}
+#logo {
+    float: right;
+    margin: 10px;
+}
+/*Css-navigácia*/
+#nav {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 1300px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: grey;
+    min-width: 150px;
+}
+#nav_obal {
+    margin-left: 192px;
+}
+.nav_zoznam {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 8px;
+    margin-right: 100px;
+}
+/*Css-main*/
+#main {
+    width: 1300px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+/*Text*/
+#text {
+    border: 2px solid grey;
+    width: 67%;
+    height: 100%;
+    float: left;
+    margin-right: 3%;
+    padding: 10px;
+}
+#text_obl > h2 {
+    padding-bottom: 40px;
+}
+/*text pre uvod*/
+.uvod_p {
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+/*Aktuality*/
+#aktuality {
+    border: 2px solid grey;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+#AK_nadpis {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+.AK_zoznam {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-color: gray;
+    width: 350px;
+    height: 85px;
+    border-radius: 10px;
+    padding: 5px;
+}
+/*Css-footer*/
+#footer {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 1300px;
+    height: 100px;
+    background-color: grey;
+}
+#footer_AP {
+    width: fit-content;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 30px;
+}

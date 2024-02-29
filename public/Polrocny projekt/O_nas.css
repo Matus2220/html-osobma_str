@@ -1,0 +1,15 @@
+/*text pre O nas*/
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    column-width: 200px;
+    background-color: gray;
+}
+th {
+    color: yellow;
+}
+td {
+    background-color: lightgray;
+    color: black;
+}
